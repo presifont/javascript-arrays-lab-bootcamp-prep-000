@@ -13,6 +13,6 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 function appendKitten(name) {
-  kittens.slice(-2);
-  news = kittens.slice(-2);
+newName = kittens.slice(-2);
+  
 }
