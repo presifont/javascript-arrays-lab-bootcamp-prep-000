@@ -13,5 +13,6 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 function appendKitten(name) {
-  kittens = [...kittens, 'Broom'];
+  kittens.slice(-2);
+  news = kittens.slice(-2);
 }
