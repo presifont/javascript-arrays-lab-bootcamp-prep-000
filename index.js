@@ -23,5 +23,6 @@ function prependKitten(name) {
   return newArr
 }
 function removeLastKitten() {
-  kittens.pop();
+  kittens = kittens.pop();
+  return kittens;
 }
